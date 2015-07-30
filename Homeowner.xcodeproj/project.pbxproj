@@ -14,6 +14,7 @@
 		26527E821B6AB16400312AC1 /* HomeownerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26527E811B6AB16400312AC1 /* HomeownerTests.m */; };
 		26527E8D1B6AB71D00312AC1 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26527E8C1B6AB71D00312AC1 /* ItemsViewController.m */; };
 		26527E8F1B6ABF0600312AC1 /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 26527E8E1B6ABF0600312AC1 /* BNRItem.m */; };
+		26527E931B6AC54B00312AC1 /* ItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 26527E921B6AC54B00312AC1 /* ItemStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		26527E8C1B6AB71D00312AC1 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
 		26527E8E1B6ABF0600312AC1 /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		26527E901B6ABF2A00312AC1 /* BNRItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		26527E911B6AC54B00312AC1 /* ItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemStore.h; sourceTree = "<group>"; };
+		26527E921B6AC54B00312AC1 /* ItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				26527E6A1B6AB16400312AC1 /* AppDelegate.m */,
 				26527E8B1B6AB71D00312AC1 /* ItemsViewController.h */,
 				26527E8C1B6AB71D00312AC1 /* ItemsViewController.m */,
+				26527E911B6AC54B00312AC1 /* ItemStore.h */,
+				26527E921B6AC54B00312AC1 /* ItemStore.m */,
 				26527E8E1B6ABF0600312AC1 /* BNRItem.m */,
 				26527E901B6ABF2A00312AC1 /* BNRItem.h */,
 				26527E6C1B6AB16400312AC1 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26527E931B6AC54B00312AC1 /* ItemStore.m in Sources */,
 				26527E6E1B6AB16400312AC1 /* ViewController.m in Sources */,
 				26527E6B1B6AB16400312AC1 /* AppDelegate.m in Sources */,
 				26527E8F1B6ABF0600312AC1 /* BNRItem.m in Sources */,
