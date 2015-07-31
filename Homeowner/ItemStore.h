@@ -8,10 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+@class BNRItem;
+
 @interface ItemStore : NSObject
+
+@property (nonatomic, readonly) NSArray
+*allItems;
 
 // Create class method that declares ItemStore a sharedStore 
 
 +(instancetype)sharedStore;
+-(BNRItem *)createItem;
 
 @end

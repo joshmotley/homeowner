@@ -7,6 +7,16 @@
 //
 
 #import "ItemStore.h"
+#import "BNRItem.h"
+
+/* privateItems instance is in class extension
+so that it can only be manipulated internally */
+
+@interface ItemStore  ()
+
+@property (nonatomic) NSMutableArray *privateItems;
+
+@end
 
 @implementation ItemStore : NSObject
 
@@ -31,7 +41,20 @@
 -(instancetype)initPrivate
         {
             self= [super init];
+            if (self) {
+                _privateItems = [[NSMutableArray alloc]init];
+            }
             return self;
         }
+-(BNRItem *)createItem{
+    BNRItem *item = [[BNRItem alloc]init];
+    
+    [self.privateItems addObject:item];
+    return item;
+}
+
+-(NSArray *)allItems{
+    return self.privateItems;
+}
 
 @end
